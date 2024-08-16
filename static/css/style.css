@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 3, 3);
+    font-family: Arial, sans-serif; /* Altera a fonte do título h1 */
+}
+
+table {
+    color: rgb(255, 255, 255);
+    border: 1px solid aliceblue; /* Adicionando uma borda sólida de 1px com cor aliceblue */
+    border-collapse: collapse; /* Para garantir que as células da tabela estejam bem ajustadas */
+    width: 100%; /* Define a largura da tabela como 100% */
+    font-family: Arial, sans-serif; /* Altera a fonte da tabela */
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255); /* Adicionando borda às células e cabeçalhos */
+    padding: 12px; /* Aumenta o espaçamento interno para células e cabeçalhos */
+    text-align: center; /* Alinha o conteúdo de células e cabeçalhos ao centro */
+}
+
+th {
+    background-color: rgb(255, 0, 0); /* Define cor de fundo para os cabeçalhos */
+    color: rgb(17, 17, 17); /* Cor do texto nos cabeçalhos */
+}
+
+tr:nth-child(even) {
+    background-color: #080000; /* Define cor de fundo para linhas pares da tabela */
+}
